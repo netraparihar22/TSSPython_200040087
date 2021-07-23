@@ -54,7 +54,7 @@ def GameLoop() :
     food_x = random.randint(10, screen_width/1.5)
     food_y = random.randint(10, screen_height/1.5)
 
-    score = 0
+    score = 0 
     init_vel = 5
 
     snake_size = 15
@@ -103,6 +103,7 @@ def GameLoop() :
             snake_x += vel_x
             snake_y += vel_y
 
+            #food eat
             if abs(snake_x-food_x)<10 and abs(snake_y-food_y)<10:
                 score +=1
                 food_x = random.randint(10, screen_width/1.5)
