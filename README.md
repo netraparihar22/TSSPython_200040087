@@ -1,2 +1,2 @@
 # TSSPython_200040087
-Repo for Python Assignment.
+Repo for all Python Assignments completed in Learner Space program.
